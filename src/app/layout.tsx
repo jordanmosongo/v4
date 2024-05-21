@@ -19,7 +19,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
       <script src="assets/js/vendor/visualization/d3/d3.min.js" defer />
       <script src="assets/js/vendor/visualization/d3/d3_tooltip.js" defer />
 
@@ -35,6 +36,7 @@ export default function RootLayout({
       <script src="assets/demo/charts/pages/dashboard/heatmaps.js" defer />
       <script src="assets/demo/charts/pages/dashboard/pies.js" defer />
       <script src="assets/demo/charts/pages/dashboard/bullets.js" defer />
+      </body>
     </html>
   );
 }
