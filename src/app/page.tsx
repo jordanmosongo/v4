@@ -26,26 +26,25 @@ export default function Home() {
             <SidebarContent />
           </div>
         </div>
-
         <div className="content-wrapper">
           <div className="content-inner">
             <ContentPageHeader />
             <div className="content">
-              <div className="row">
+              {/* <div className="row">
                 <StatisticNumberOne />
                 <StatisticNumberTwo />
-              </div>
+              </div> */}
               <div className="row">
                 <div className="col-xl-8">
                   <CardTable />
-                  <Cardrevenue />
+                  {/* <Cardrevenue />
                   <CardSupportTickets />
-                  <CardPosts />
+                  <CardPosts /> */}
                 </div>
                 <div className="col-xl-4">
                   <CardSales />
-                  <CardMessages />
-                  <CardFinancialDetail />
+                  {/* <CardMessages />
+                  <CardFinancialDetail /> */}
                 </div>
               </div>
             </div>
